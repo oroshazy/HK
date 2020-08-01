@@ -58,6 +58,11 @@ h1,h3{
 	
     border-radius: 20px;
 }
+thead{
+	vertical-align: bottom;
+	text-align: center;
+	width: 100%;
+}
 
 #page0,#page1,#page2,#page3,#page4,#page5,#page6{
 	background-color: gray;
@@ -91,4 +96,10 @@ a:visited{
 #textLink{
 
 	color: blue;
+}
+#bglogo{
+	width: 40%;
+}
+#szolgTable{
+	background-color: whitesmoke;
 }
