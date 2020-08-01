@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Haszon-Kulcs Kft.</title>
+	<link rel="stylesheet" href="css/styl.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<table id="logoTable"align="center">
+		<tr align="center">
+			<th><img src="img/logo.2.gif" alt="logo" id="logo" align="center"></th>
+		</tr>
+
+	</table>
+	<table id="menu">
+		<tr>
+			<th valign="middle">
+				<div class="container">
+					<div class="row">
+						<div id="page0" class="col" onmouseenter="mouseEnter('page0')"
+							onmouseleave="mouseLeave('page0')">
+							<a href="index.html">
+								<h4>Cégünkről</h4>
+							</a>
+						</div>
+						<div id="page1" class="col" onmouseenter="mouseEnter('page1')"
+							onmouseleave="mouseLeave('page1')">
+							<a href="szolgaltatasaink.html">
+								<h4>Szolgáltatásaink</h4>
+							</a>
+						</div>
+						<div id="page2" class="col" onmouseenter="mouseEnter('page2')"
+							onmouseleave="mouseLeave('page2')">
+							<a href="araink.html">
+								<h4>Áraink</h4>
+							</a>
+						</div>
+						<div id="page3" class="col" onmouseenter="mouseEnter('page3')"
+							onmouseleave="mouseLeave('page3')">
+							<a href="referenciak.html">
+								<h4>Referenciák</h4>
+							</a>
+						</div>
+						<div id="page4" class="col" onmouseenter="mouseEnter('page4')"
+							onmouseleave="mouseLeave('page4')">
+							<a href="ajanlat.html">
+								<h4>Ajánlatkérés</h4>
+							</a>
+						</div>
+						<div id="page5" class="col" onmouseenter="mouseEnter('page5')"
+							onmouseleave="mouseLeave('page5')">
+							<a href="linkek.html">
+								<h4>Linkek</h4>
+							</a>
+						</div>
+						<div id="page6" class="col" onmouseenter="mouseEnter('page6')"
+							onmouseleave="mouseLeave('page6')">
+							<a href="elerhetoseg.html">
+								<h4>Elérhetőség</h4>
+							</a>
+						</div>
+					</div>
+				</div>
+			</th>
+		</tr>
+
+	</table>
+	<script>
+		function mouseEnter(pageID) {
+			document.getElementById(pageID).style.backgroundColor = "red";
+			document.getElementById(pageID).style.cursor = "pointer";
+
+		}
+		function mouseLeave(pageID) {
+			document.getElementById(pageID).style.backgroundColor = "grey";
+			document.getElementById(pageID).style.cursor = "default";
+		}
+
+	</script>
+	<table class="greeting">
+	<tr id=fullTextTable align="center" >
+		<tr>
+			<th>
+				<div align="center">
+					<h1>
+						<stong>
+							Tisztelettel köszöntjük Önt a Haszon-Kulcs Kft. honlapján!
+						</stong>
+					</h1>
+				</div>
+				<div>
+					<h3>Társaságunk 1998-ban alakult. 
+						Tevékenyégünkkel a vállalkozók és a vállalkozások
+						számára kívánunk segítséget nyújtani a működésükhöz szükséges tanácsadással,
+						tájékoztatással és teljes körű ügyintézéssel.
+					</h3>
+				</div>
+			</th>
+		</tr>
+		<tr>	
+			<th>
+				<div>
+					<h3>
+						Kérjük ismerje meg <strong color= "red"><a  href=szolgaltatasaink.html >szolgáltatásainkat</a></strong>,
+						melyek alapján meggyőződhet arról, hogy társaságunk a számvitel területén
+						az Ön legmegfelelőbb partnere lehet!
+					</h3>
+				</div>
+			</th>
+		</tr>	
+	</tr>
+	</table>
+</body>
+
+</html>
