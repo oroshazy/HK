@@ -1,3 +1,4 @@
+/* <----------------------------------------------Type styles-----------------------------------------> */
 html{
 	background-color:rgba(0, 43, 102);
 }
@@ -14,14 +15,6 @@ th{
 	column-span: all;
 }
 
-#page0,#page1,#page2,#page3,#page4,#page5,#page6{
-	
-	color: yellow;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif" ;
-	font-size: 20px;
-	
-}
-
 table{
 	background-color:rgba(0, 43, 102);
 }
@@ -29,6 +22,28 @@ table{
 h1,h3{
 	color: black;
 }
+
+thead{
+	vertical-align: bottom;
+	text-align: center;
+	width: 100%;
+}
+
+/* <----------------------------------------------ID styles-------------------------------------------> */
+#page0,#page1,#page2,#page3,#page4,#page5,#page6{
+	
+	color: yellow;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif" ;
+	font-size: 20px;
+	border: 2px solid red;
+	border-left-color: aqua;
+	border-right-color: aqua;
+	border-left-style: double;
+	border-right-style: double;
+	border-radius: 20px;
+	background-color: gray;
+}
+
 #logo{
 	width: 350px;
 	height: 130px;
@@ -43,52 +58,11 @@ h1,h3{
 	width: 100%;
 	height:auto;
 }
-	
-.container{
-	margin-left: 5px;
-	margin-right: 5px;
-}
-
-.col{
-	border: 2px solid red;
-	border-left-color: aqua;
-	border-right-color: aqua;
-	border-left-style: double;
-	border-right-style: double;
-	
-    border-radius: 20px;
-}
-thead{
-	vertical-align: bottom;
-	text-align: center;
-	width: 100%;
-}
-
-#page0,#page1,#page2,#page3,#page4,#page5,#page6{
-	background-color: gray;
-}
-
-a:link{
-	color: yellow;
-}
-
-a:visited{
-	color: yellow;
-}
 
 #textLink:link{
 	text-decoration-line: underline;
 }
 
-.greeting{
-
-	vertical-align:center;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	color: black;
-	background-color: whitesmoke;
-	height: 100%;
-	background: url("img/bglogo.jpg");
-}
 #fullTextTable{
 
 	height: 100%;
@@ -103,3 +77,28 @@ a:visited{
 #szolgTable{
 	background-color: whitesmoke;
 }
+
+/* <----------------------------------------------Class styles----------------------------------------> */
+.container{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.greeting{
+	vertical-align:center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: black;
+	background-color: whitesmoke;
+	height: 100%;
+	background: url("img/bglogo.jpg");
+}
+
+/* <----------------------------------------------Link styles-----------------------------------------> */
+a:link{
+	color: yellow;
+}
+
+a:visited{
+	color: yellow;
+}
+
