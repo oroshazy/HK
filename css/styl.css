@@ -23,6 +23,13 @@ h1,h3{
 	color: black;
 }
 
+h5{
+	width: 80%;
+	height: 200px;
+	border: blue;
+	border-style: solid;
+}
+
 thead{
 	vertical-align: bottom;
 	text-align: center;
@@ -31,7 +38,6 @@ thead{
 
 /* <----------------------------------------------ID styles-------------------------------------------> */
 #page0,#page1,#page2,#page3,#page4,#page5,#page6{
-	
 	color: yellow;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif" ;
 	font-size: 20px;
@@ -64,18 +70,26 @@ thead{
 }
 
 #fullTextTable{
-
 	height: 100%;
 }
-#textLink{
 
+#textLink{
 	color: blue;
 }
+
 #bglogo{
 	width: 40%;
 }
+
 #szolgTable{
 	background-color: whitesmoke;
+	width: 70%;
+	vertical-align: bottom;
+	margin-left: 15%;
+}
+
+#szolgTbody{
+vertical-align: bottom;
 }
 
 /* <----------------------------------------------Class styles----------------------------------------> */
