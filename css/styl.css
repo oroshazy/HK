@@ -107,14 +107,6 @@ vertical-align: bottom;
 	height: 100%;
 	background: url("img/bglogo.jpg");
 }
-.row2{
-	display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
 
 /* <----------------------------------------------Link styles-----------------------------------------> */
 a:link{
