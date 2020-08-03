@@ -2,6 +2,9 @@
 html{
 	background-color:rgba(0, 43, 102);
 }
+body{
+	background-color:rgba(0, 43, 102);
+}
 
 td{
 	column-width: 100%;
@@ -24,11 +27,13 @@ h1,h3{
 	color: black;
 }
 
-h5{
+ul{
 	width: 80%;
-	height: 200px;
-	border: blue;
-	border-style: solid;
+	height: 300px;
+	border-color: lightgray;
+	border-style: inset;
+	overflow-y: scroll;
+	
 }
 
 thead{
@@ -84,9 +89,11 @@ thead{
 
 #szolgTable{
 	background-color: whitesmoke;
+	border-radius: 5%;
 	width: 70%;
 	vertical-align: bottom;
-	margin-left: 15%;
+	margin-left: 15% ;
+	border-left: rgba(0, 43, 102);
 }
 
 #szolgTbody{
